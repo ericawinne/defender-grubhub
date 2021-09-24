@@ -1,0 +1,20 @@
+<h1>Create New Restaurant</h1>
+<%= form_for @restaurant do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %><br><br>
+
+  <%= form.label :description %>
+  <%= form.text_area :description %><br><br>
+
+  <%= form.label :city %>
+  <%= form.text_field :city %><br><br>
+
+  <%= form.label :star_rating %>
+  <%= form.text_field :star_rating %><br><br>
+
+  <%= form.label :cuisine %>
+  <%= form.text_field :cuisine %><br><br>
+
+  <%= form.submit %>
+  
+<% end %>

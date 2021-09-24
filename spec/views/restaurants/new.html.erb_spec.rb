@@ -18,7 +18,7 @@ RSpec.describe "restaurants/new", type: :view do
 
       assert_select "input[name=?]", "restaurant[name]"
 
-      assert_select "input[name=?]", "restaurant[description]"
+      assert_select "textarea[name=?]", "restaurant[description]"
 
       assert_select "input[name=?]", "restaurant[city]"
 

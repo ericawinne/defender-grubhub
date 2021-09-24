@@ -18,7 +18,7 @@ RSpec.describe "/restaurants", type: :request do
   # adjust the attributes here as well.
   let(:valid_attributes) {
     {
-      name: "Central",
+      name: "Central1",
       description: "The best BBQ place in Memphis",
       city: "Memphis",
       star_rating: 5,
